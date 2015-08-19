@@ -40,6 +40,7 @@ class websphere (
   } else {
     $java_prefs = [
       '/opt/IBM',
+      "${base_dir}",
       "${base_dir}/.java",
       "${base_dir}/.java/systemPrefs",
       "${base_dir}/.java/userPrefs",
